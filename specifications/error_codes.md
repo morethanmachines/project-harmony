@@ -1,0 +1,2 @@
+# Errors
+Conventional HTTP error codes are used to indicate the success or failure of requests. Generally 2xx codes must indicate success. Codes in the 4xx range must indicate failure given the parameters provided, Codes in the 5xx range must indicate an error with the service.

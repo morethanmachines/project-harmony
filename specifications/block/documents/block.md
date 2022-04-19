@@ -39,7 +39,7 @@ The id of the vineyard containing the block
 Identifier for the object that is provided by the vineyard.
 
 **user_block_id** `string`  
-Identifier for the object that is provied by the grower.
+Identifier for the object that is provided by the grower.
 
 **row_spacing** `integer`  
 row spacing in millimeters
@@ -103,7 +103,7 @@ The block's description. This attribute optionally stores a long form descriptio
 A set of key-value pairs that can be attached to an object. This can be used for storing additional information about an object in a structured format. For example additional information held by an individual application about a block.  Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to metadata.
 
 ### Returns
-Returns the block object if the update suceeded. Returns an error if the parameters are invalid. For example, specifying an invalid `vineyard_id`.
+Returns the block object if the update succeeded. Returns an error if the parameters are invalid. For example, specifying an invalid `vineyard_id`.
 
 ### Response
 ```
@@ -155,7 +155,7 @@ Returns the block object if the update suceeded. Returns an error if the paramet
 None
 
 ### Returns
-Returns a block object for a valid block identifier (system, vineyard, user). If it is for a depricated block, the current active block is returned along with `data` property containing a dictionary of the block's parent objects.
+Returns a block object for a valid block identifier (system, vineyard, user). If it is for a deprecated block, the current active block is returned along with `data` property containing a dictionary of the block's parent objects.
 
 ### Response
 ```
@@ -255,7 +255,7 @@ Updates the specified block by setting the values of the parameters passed.
 Identifier for the object that is provided by the vineyard.
 
 **user_block_id** `optional`  
-Identifier for the object that is provied by the grower.
+Identifier for the object that is provided by the grower.
 
 **row_spacing** `optional`  
 row spacing in millimeters

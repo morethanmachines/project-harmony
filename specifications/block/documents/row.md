@@ -32,19 +32,19 @@ Unique identifier for the object
 Unique identifier of the object of which this object is a descendant.
 
 **vineyard_id** `string`  
-The block in which this row is wholy contained
+The block in which this row is wholly contained
 
 **block_id** `string`  
-The block in which this row is wholy contained
+The block in which this row is wholly contained
 
 **object** `string, value is vine_row`  
 A string representing the object's type. Objects of the same type share the same value.
 
 **merge** `boolean`  
-If the the row is being being merged with another row object then `merge` is `true`. If the value of `merge` is not set then it defaults to `false`.
+If the row is being being merged with another row object then `merge` is `true`. If the value of `merge` is not set then it defaults to `false`.
 
 **split** `boolean`  
-If the the blockrow is being split then `split` is `true`. If the value of `split` is not set then it defaults to `false`.
+If the blockrow is being split then `split` is `true`. If the value of `split` is not set then it defaults to `false`.
 
 **name** `string`  
 The descriptive name of the row
@@ -66,7 +66,7 @@ Creates a new row object
 
 ### Parameters
 **block_id** `required`  
-The block in which this row is wholy contained
+The block in which this row is wholly contained
 
 **name** `optional`  
 The descriptive name of the row
@@ -142,10 +142,10 @@ Updates the specified row by setting the values of the parameters passed.
 
 ### Parameters
 **vineyard_id** `required`  
-The block in which this row is wholy contained
+The block in which this row is wholly contained
 
 **block_id** `required`  
-The block in which this row is wholy contained
+The block in which this row is wholly contained
 
 **merge** `boolean`  
 If the the row is being being merged with another row object then `merge` is `true`. If the value of `merge` is not set then it defaults to `false`.
@@ -235,7 +235,7 @@ Returns a list of all vine rows associated with a block. The rows are returned s
 The vineyard in which the vine rows are contained
 
 **block_id** `optional`  
-The block in which the vine row objects are wholy contained
+The block in which the vine row objects are wholly contained
 
 **name** `optional`  
 The descriptive name of the vine row
@@ -247,7 +247,7 @@ A filter on the list based on the object `created` field. The value is a `string
 A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 10.
 
 **starting_after** `optional`   
-A cursor for use in pagination. starting_after is an vine row identifier that defines a place in the list. This can be used to page results to improve performance.
+A cursor for use in pagination. starting_after is a vine row identifier that defines a place in the list. This can be used to page results to improve performance.
 
 ### Returns
 A dictionary with a data property that contains an array of up to limit vine rows, starting after starting_after. Each entry in the array is a separate vine row object. If no more vine rows are available, the resulting array will be empty. This request should never return an error.

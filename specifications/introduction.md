@@ -3,11 +3,13 @@ The Wine Australia project harmony object model and interaction schema is organi
 
 The object model is designed to provide a reference architecture for the movement of viticultural data between systems.
 
-We have started by specifying the [object model](https://github.com/morethanmachines/project-harmony/blob/91115c89e3743c6d6e42381bba9c6886d723027e/specifications/block/data_model/data_model.png) and interaction schema for [blocks](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/block.md#block-draft) and [rows](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/row.md#vine-row-draft).
+We have started by specifying the [object model](https://github.com/morethanmachines/project-harmony/blob/91115c89e3743c6d6e42381bba9c6886d723027e/specifications/block/data_model/data_model.png) and interaction schema for [blocks](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/block.md#block-draft) and [rows](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/row.md#vine-row-draft). The a graphical representation of the interaction flow can be seen below.
+
+![Interaction flow](./schema/documents/images/process_flow.png)
 
 Where possible the object model will align to international data models and existing standards to ensure alignment with international specifications. Additionally the specification has been designed to support emerging requirements. For example by providing for the inclusion of spatial features (and aligning these to [geojson standards](https://geojson.org/)).
 
-The docmentation contained in the schema aligns closely to the conventions in use by the [Internet Engineering Task Force](https://www.ietf.org/).
+The documentation contained in the schema aligns closely to the conventions in use by the [Internet Engineering Task Force](https://www.ietf.org/).
 
 ## Notes on documentation style
 ### Requirements language
@@ -17,7 +19,7 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 ### HTTP status codes
-The response codes used in the documentation are aligned to the [http response codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) as maintained by the [Internet Assigned Numbers Authority](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority).
+The response codes used in the documentation are aligned to the [http response codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) as maintained by the [Internet Assigned Numbers Authority](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority). Error code use is described [here](https://github.com/morethanmachines/project-harmony/blob/47f5cba6f3938f00f0ccb58810427c98569d1abe/specifications/error_codes.md).
 
 ### Conventions used
 * The ordering of the members of any JSON object defined in this

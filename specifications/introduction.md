@@ -16,6 +16,9 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
+### HTTP status codes
+The response codes used in the documentation are aligned to the [http response codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) as maintained by the [Internet Assigned Numbers Authority](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority).
+
 ### Conventions used
 * The ordering of the members of any JSON object defined in this
 document MUST be considered irrelevant, as specified by [RFC7159](https://datatracker.ietf.org/doc/html/rfc7159).

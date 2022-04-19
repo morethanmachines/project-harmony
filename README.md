@@ -1,7 +1,7 @@
 ## Wine Australia Project Harmony
 This repository contains the artefacts for Wine Australia's Project Harmony. Project Harmony aims to define a standard schema for row/block identification and spray diary evidence.
 
-The best place to start reviewing the scheme is the [project introduction](https://github.com/morethanmachines/project-harmony/blob/main/specifications/introduction.md).
+The best place to start reviewing the schema is the [project introduction](https://github.com/morethanmachines/project-harmony/blob/724472845a08312f402317f1a53b3c91260dd7ce/specifications/introduction.md).
 
 ## Contributing
 You are welcome to contribute to this repository, and we encourage you to do so. Contributing to this project works like contributing to any open source project:

@@ -1,5 +1,5 @@
 # Introduction
-Th Wine Australia project harmony object model is organised around [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer). The object mdoel has been designed to align to predictable resource orientated URLs, accept [form-encoded](https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms) request bodies, returns [JSON-encoded](http://www.json.org/) responses and uses standard http response codes.
+Th Wine Australia project harmony object model and interaction schema is organised around [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer). The artefacts have been designed to align to predictable resource orientated URLs, accept [form-encoded](https://en.wikipedia.org/wiki/POST_(HTTP)#Use_for_submitting_web_forms) request bodies, returns [JSON-encoded](http://www.json.org/) responses and uses standard http response codes.
 
 The object model is designed to provide a reference architecture for the movement of viticultural data between systems.
 

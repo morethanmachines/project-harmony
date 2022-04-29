@@ -3,7 +3,7 @@ The Wine Australia project harmony object model and interaction schema is organi
 
 The object model is designed to provide a reference architecture for the movement of viticultural data between systems.
 
-We have started by specifying the [object model](https://github.com/morethanmachines/project-harmony/blob/91115c89e3743c6d6e42381bba9c6886d723027e/specifications/block/data_model/data_model.png) and interaction schema for [blocks](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/block.md#block-draft) and [rows](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/block/documents/row.md#vine-row-draft). The a graphical representation of the interaction flow can be seen below.
+We have started by specifying the [object model](https://github.com/morethanmachines/project-harmony/blob/91115c89e3743c6d6e42381bba9c6886d723027e/specifications/block/data_model/data_model.png) and interaction schema for [blocks](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/schema/documents/block.md) and [rows](https://github.com/morethanmachines/project-harmony/blob/develop/specifications/schema/documents/row.md). The a graphical representation of the interaction flow can be seen below.
 
 ![Interaction flow](./schema/documents/images/process_flow.png)
 

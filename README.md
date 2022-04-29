@@ -3,6 +3,8 @@ This repository contains the artefacts for Wine Australia's Project Harmony. Pro
 
 The best place to start reviewing the schema is the [project introduction](https://github.com/morethanmachines/project-harmony/blob/724472845a08312f402317f1a53b3c91260dd7ce/specifications/introduction.md).
 
+***Currently this repository is at POC and requires further development.***
+
 ## Contributing
 You are welcome to contribute to this repository, and we encourage you to do so. Contributing to this project works like contributing to any open source project:
 

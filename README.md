@@ -1,9 +1,9 @@
 ## Wine Australia Project Harmony
 
 ### Objective:
-Responding to industry requirements, Project Harmony has been initiated by (Wine Australia)[https://www.wineaustralia.com/about-us] to create a data specification enabling portability of  grower agrochemical application records between Spray Diary systems.  A common specification will enable growers to enter their agrochemical data once, share their data across platforms to permitted parties, and to maintain access to their online diary history. Spray application records are currently collected by growers (approx 6000) using a number of different applications (Grapeweb, GrapeLink, VitiCentral etc) as dictated by the wineries that they supply and is submitted as a spray diary prior to harvest.
+Responding to industry requirements, Project Harmony has been initiated by [Wine Australia](https://www.wineaustralia.com/about-us) to create a data specification enabling portability of  grower agrochemical application records between Spray Diary systems.  A common specification will enable growers to enter their agrochemical data once, share their data across platforms to permitted parties, and to maintain access to their online diary history. Spray application records are currently collected by growers (approx 6000) using a number of different applications (Grapeweb, GrapeLink, VitiCentral etc) as dictated by the wineries that they supply and is submitted as a spray diary prior to harvest.
 
-This repository contains the artefacts for Wine Australia's Project Harmony. Building on the work undertaken by the (Collabraculture initiative)[https://www.wineaustralia.com/research/projects/collabriculture-an-open-and-collaborative-approach-to-technology-in-the-wine-industry]. Project Harmony aims to define industry sprecifications for row/block identification and spray diary evidence.
+This repository contains the artefacts for Wine Australia's Project Harmony. Building on the work undertaken by the [Collabraculture initiative](https://www.wineaustralia.com/research/projects/collabriculture-an-open-and-collaborative-approach-to-technology-in-the-wine-industry). Project Harmony aims to define industry sprecifications for row/block identification and spray diary evidence.
 
 Project Harmony is split into three primary areas of concern:
 

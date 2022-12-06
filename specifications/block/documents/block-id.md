@@ -1,13 +1,13 @@
 # Block identifier
 The following block identifier is to be used for the identification of blocks within a Vinyard.
 
-    89636749924-abouriou-barossavalley-northblock-12
-    ----------- -------- ------------- ---------- --
-      |           |        |             |        |
-      |           |        |             |        Row number in the block 
-      |           |        |             |
-      |           |        |            Block name
-      |           |       GI Region
+    89636749924-abouriou-47-northblock-12
+    ----------- -------- -- ---------- --
+      |           |       |         |   |
+      |           |       |         |   Row number in the block 
+      |           |       |         |
+      |           |       |        Block name
+      |           |      GI_NUMBER
       |         Variety
       ABN
       
@@ -15,7 +15,7 @@ The following block identifier is to be used for the identification of blocks wi
  
  1. The ***ABN*** of the vineyard where the block is located.
  2. The ***Variety*** code for the variety as provided by Wine Australia - lowercase, spaces removed
- 3. The ***Geographic Indicator Region*** GI_NAME (i.e Barossa Valley) of the block as provided by Wine Australia [link](https://www.wineaustralia.com/labelling/register-of-protected-gis-and-other-terms/geographical-indications) lowercase wih spaces removed.
+ 3. The ***Geographic Indicator Region*** GI_NUMBER (i.e 47) of the block as provided by Wine Australia [link](https://www.wineaustralia.com/labelling/register-of-protected-gis-and-other-terms/geographical-indications) - [Open Data Hub](https://wineaustralia-opendata-wineaustralia.hub.arcgis.com/maps/ede7ffb0e73b4504a5ed613965b11e0f/about).
  4. The ***Block Name*** of the block as provided by the grower - lower case, spaces removed.
  5. The row number in the block
 

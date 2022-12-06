@@ -13,7 +13,7 @@ The following block identifier is to be used for the identification of blocks wi
       
  The block identifier is comprised of 5 sections.
  
- 1. The ***ABN*** of the vineyard where the block is located (as provided by ATO/visible on wine company contract).
+ 1. The ***ABN*** of the vineyard where the block is located (as provided by ATO/visible on wine company contract) - [ABN Format](https://abr.business.gov.au/Help/AbnFormat).
  2. The ***Variety*** code for the variety as provided by Wine Australia - lowercase, spaces removed
  3. The ***Geographic Indicator Region*** GI_NUMBER (i.e 47) of the block as provided by Wine Australia [Website Link](https://www.wineaustralia.com/labelling/register-of-protected-gis-and-other-terms/geographical-indications) - [Open Data Hub](https://wineaustralia-opendata-wineaustralia.hub.arcgis.com/maps/ede7ffb0e73b4504a5ed613965b11e0f/about).
  4. The ***Block Name*** of the block as provided by the grower - lower case, spaces removed.

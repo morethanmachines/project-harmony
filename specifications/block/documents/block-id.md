@@ -20,6 +20,6 @@ The following block identifier is to be used for the identification of blocks wi
  3. The ***Geographic Indicator Region*** GI_NUMBER (i.e 47) of the block as provided by Wine Australia [Website Link](https://www.wineaustralia.com/labelling/register-of-protected-gis-and-other-terms/geographical-indications) - [Open Data Hub](https://wineaustralia-opendata-wineaustralia.hub.arcgis.com/maps/ede7ffb0e73b4504a5ed613965b11e0f/about).
  4. The ***Block Name*** of the block as provided by the grower - lower case, spaces removed.
  5. The ***starting row number*** of the block
- 6. The ***number of rows** in the block
+ 6. The ***number of rows*** in the block
 
 The GI regions can be found as a geojson representation as part of the [collabraculture](https://www.wineaustralia.com/research/projects/collabriculture-an-open-and-collaborative-approach-to-technology-in-the-wine-industry) project [here](https://github.com/CollabricultureOrg/geographical-indications-of-australia/blob/master/data/geojson/Wine_GI_Regions_2021.geojson)

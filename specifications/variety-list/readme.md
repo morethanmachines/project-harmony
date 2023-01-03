@@ -6,6 +6,7 @@ The list is refreshed in the event of a change in the base variety list maintain
 
 The process used when updating the variety list is as follows:
 
+```mermaid
 graph TB
     subgraph Wine Australia
     direction TB
@@ -26,5 +27,6 @@ graph TB
     CommitFiles-->Wait[Wait]
     Wait-->CheckChanges
     end
+ ```
 
 All changes made in the files can be viewed as change sets within github.

@@ -12,7 +12,7 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v3
     - name: Fetch latest data
-      run: python specifications/australian-grapevine-variety-list/variety-list/process.py
+      run: python specifications/australian-grapevine-variety-list/importer/process.py
     - name: Commit and push if changed
       run: |-
         git config user.name "Automated"

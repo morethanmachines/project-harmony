@@ -1,4 +1,4 @@
-# Australian Grapevine Variety List
+# Australian Grapevine Variety List Files
 
 These files represent the most up to date variety list available from wine australia for use in applications.
 

@@ -13,10 +13,18 @@ The Australian grape vine variety list JSON file is formatted to the following s
 
 ```
 [{
-    "id": 25,
-    "prime_name": "Blaufrankisch",
-    "variety_code": "BLF",
-    "synonyms": ["Blaufraenkish", "Limberger", "Lemberger"]
+    "id": "7",
+    "prime_name": "Alicante Bouchet",
+    "code": "AHB",
+    "synonyms": [{
+            "name": "Alicante Bouschet",
+            "code": "ABS"
+        },
+        {
+            "name": "Alicante Henri Bouschet",
+            "code": "AHB"
+        }
+    ]
 }]
 ```
 <details>
@@ -31,19 +39,46 @@ The Australian grape vine variety list JSON file is formatted to the following s
       "type": "object",
       "properties": {
         "id": {
-          "type": "integer"
+          "type": "string"
         },
         "prime_name": {
           "type": "string"
         },
-        "variety_code": {
+        "code": {
           "type": "string"
         },
         "synonyms": {
           "type": "array",
           "items": [
             {
-              "type": "string"
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "code"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "code"
+              ]
             }
           ]
         }
@@ -51,7 +86,8 @@ The Australian grape vine variety list JSON file is formatted to the following s
       "required": [
         "id",
         "prime_name",
-        "variety_code"
+        "code",
+        "synonyms"
       ]
     }
   ]

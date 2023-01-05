@@ -116,9 +116,6 @@ if __name__== "__main__":
         except IOError:
             print("Error: There was an error reading or writing to the file")
 
-
-    print(os.getcwd())
-    
     label_url = 'https://drive.google.com/uc?export=download&id=1diQRBAJO9dYwoR5MBl78z_zS7pFvbP4f'
     bottle_url = 'https://drive.google.com/uc?export=download&id=1rxNnJHWXuItwi_gKZFEBdyFmdTLUZ2Qq'
 

@@ -120,9 +120,9 @@ if __name__== "__main__":
     label_url = 'https://drive.google.com/uc?export=download&id=1diQRBAJO9dYwoR5MBl78z_zS7pFvbP4f'
     bottle_url = 'https://drive.google.com/uc?export=download&id=1rxNnJHWXuItwi_gKZFEBdyFmdTLUZ2Qq'
 
-    get_variety_list(label_url, '../variety-list/raw/raw-label.csv')
-    get_variety_list(bottle_url, '../variety-list/raw/raw-bottle.csv')
-    create_variety_list_csv_from_raw('../variety-list/raw/raw-label.csv', '../variety-list/raw/raw-bottle.csv', '../variety-list/csv/variety-list.csv')
-    create_json_from_csv('../variety-list/csv/variety-list.csv', '../variety-list/json/variety-list.json')
+    get_variety_list(label_url, 'specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv')
+    get_variety_list(bottle_url, 'specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv')
+    create_variety_list_csv_from_raw('specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv', 'specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv', 'specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv')
+    create_json_from_csv('specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv', 'specifications/australian-grapevine-variety-list/variety-list/json/variety-list.json')
 
 

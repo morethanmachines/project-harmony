@@ -1,4 +1,4 @@
-name: import latest Australian grapevine variety list data
+name: Import Latest Australian Grapevine Variety List
 run-name: Importing the latest Australian grapevine variety list data from Wine Australia
 
 on: #push

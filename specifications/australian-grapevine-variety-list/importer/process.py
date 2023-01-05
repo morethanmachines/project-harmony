@@ -2,7 +2,6 @@ import csv
 import json
 import urllib.request
 import unicodedata
-import os
 
 if __name__== "__main__":
 

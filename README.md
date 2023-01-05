@@ -1,5 +1,7 @@
 ## Wine Australia Project Harmony
 
+[![Import Latest Australian Grapevine Variety List](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml/badge.svg?branch=main)](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml)
+
 ### Objective:
 **Responding to industry requirements, Project Harmony has been initiated by [Wine Australia](https://www.wineaustralia.com/about-us) to create a data specification enabling portability of  grower agrochemical application records between Spray Diary systems.**
 

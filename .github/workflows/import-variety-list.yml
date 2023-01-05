@@ -1,9 +1,9 @@
 name: import latest Australian grapevine variety list data
 run-name: Importing the latest Australian grapevine variety list data from Wine Australia
 
-on: push
-  #schedule:
-  #  - cron:  '1 0 * * *'
+#on: push
+schedule:
+  - cron:  '1 0 * * *'
 
 jobs:
   scheduled:

@@ -1,0 +1,234 @@
+id,prime_name,synonym_1,synonym_1_code,synonym_2,synonym_2_code,synonym_3,synonym_3_code,synonym_4,synonym_4_code,code
+1,Abouriou,,,,,,,,,ABO
+2,Aglianico,,,,,,,,,AGL
+3,Albarino,Alvarinho,ALV,,,,,,,ALB
+4,Albillo,,,,,,,,,ALL
+5,Aléatico,,,,,,,,,ALE
+6,Alfrocheiro,,,,,,,,,ALF
+7,Alicante Bouchet,Alicante Bouschet,ABS,Alicante Henri Bouschet,AHB,,,,,AHB
+8,Aligoté,,,,,,,,,ALI
+9,Alphonse Lavallée,,,,,,,,,APL
+10,Alvarelhao,,,,,,,,,AVR
+11,Ancellotta,,,,,,,,,ANC
+12,Ansonica,Inzolia,INZ,Insolia,INS,,,,,ANS
+13,Aranel,,,,,,,,,ARA
+14,Arinto,,,,,,,,,ARI
+15,Arneis,,,,,,,,,ARN
+16,Assyrtiko,,,,,,,,,ASS
+17,Aubun,,,,,,,,,AUB
+18,Auxerrois,Aucerot,AUC,,,,,,,AUX
+19,Azal,,,,,,,,,AZL
+20,Barbera,,,,,,,,,BRB
+21,Bastardo,Trousseau,TRU,,,,,,,BAS
+22,Bianco d'Alessano,,,,,,,,,BDA
+23,Biancone,,,,,,,,,BIA
+24,Black Corinth,Zante Currant,ZCU,,,,,,,BLC
+25,Blaufrankisch,Blaufraenkish,n/a,Limberger,LIM,Lemberger,LEM,,,BLF
+26,Boal Branco,Malvasia Fina,MLF,,,,,,,BBR
+27,Bonvedro,Parraleta,PAR,Bonvedro,BON,Carcajolo Nero,CJN,Tinta Caiada,TTC,BON
+28,Bourboulenc,,,,,,,,,BOU
+29,Brachetto,,,,,,,,,BRC
+30,Brown Frontignac,Brown Muscat,BMU,Muscat à petits grains rouges,MPR,,,,,BFR
+31,Burger,,,,,,,,,BUR
+32,Cabernet Franc,,,,,,,,,CFR
+33,Cabernet Sauvignon,Cabernet,CAB,,,,,,,CSA
+34,Canada Muscat,,,,,,,,,MUC
+35,Canaiolo,,,,,,,,,CNL
+36,Cañocazo,,,,,,,,,CNC
+37,Cardinal,,,,,,,,,CRD
+38,Carignan,Carignane,CRG,Mazuela,MAZ,,,,,CAR
+39,Carina,,,,,,,,,CRN
+40,Carmenère,,,,,,,,,CMR
+41,Carnelian,,,,,,,,,CRL
+42,Cascade,,,,,,,,,CAS
+43,Cesanese,,,,,,,,,CES
+44,Chambourcin,,,,,,,,,CHM
+45,Chardonnay,,,,,,,,,CHA
+46,Chardonnay Musque,,,,,,,,,CMQ
+47,Chasselas,,,,,,,,,CHS
+48,Chenin Blanc,,,,,,,,,CHB
+49,Cienna,,,,,,,,,CIE
+50,Cinsaut,Oeillade,OEI,Blue Imperial,BIM,,,,,CIN
+51,Clairette,Blanquette,BLQ,,,,,,,CLT
+52,Colombard,,,,,,,,,COL
+53,Colorino,,,,,,,,,CLR
+54,Cortese,,,,,,,,,CTS
+55,Corvina,,,,,,,,,COR
+56,Counoise,,,,,,,,,COU
+57,Crouchen,,,,,,,,,CRO
+58,Crystal,,,,,,,,,CRY
+59,Cygne Blanc,,,,,,,,,CYG
+60,Diamond Muscat,,,,,,,,,MUD
+61,Dolcetto,,,,,,,,,DOL
+62,Doradillo,Cayetana Blanca,CYB,,,,,,,DOR
+63,Dourado,Galego Dourado,GDO,,,,,,,DOU
+64,Durif,Petite Sirah,PTS,,,,,,,DUR
+65,Ehrenfelser,,,,,,,,,EHR
+66,Emerald Riesling,,,,,,,,,EMR
+67,Falanghina,,,,,,,,,FAL
+68,Farana,Damaschino,DAM,Planta Fina de Pedralba,PFP,,,,,FAR
+69,Fernao Pires,,,,,,,,,FRP
+70,Fiano,,,,,,,,,FIA
+71,Flora,,,,,,,,,FLO
+72,Folle Blanche,,,,,,,,,FLB
+73,Fortana,,,,,,,,,FOR
+74,Freisa,,,,,,,,,FRE
+75,Frontignac,Moscato Bianco,MOB,Muscat Blanc,MUB,White Frontignac,WFR,Mus...,n/a,FRO
+76,Furmint,,,,,,,,,FUR
+77,Gamay,,,,,,,,,GAM
+78,Garganega,,,,,,,,,GAR
+79,Gewürztraminer,Red Traminer,RTR,Savagnin Rose Aromatique,SRA,Traminer,TRA,,,GWU
+80,Godello,,,,,,,,,GOD
+81,Gouais,,,,,,,,,GOU
+82,Graciano,Morrastel,MOR,,,,,,,GRA
+83,Grand Noir,,,,,,,,,GRN
+84,Greco,,,,,,,,,GRC
+85,Grenache Blanc,,,,,,,,,GRB
+86,Grenache,Garnacha,GNC,Garnacha Tinta,GTN,Granaxia,GRX,,,GRE
+87,Grey Grenache,Grenache Gris,GGS,,,,,,,GGR
+88,Grignolino,,,,,,,,,GRG
+89,Grillo,,,,,,,,,GRL
+90,Grolleau,,,,,,,,,GRO
+91,Gros Cabernet,,,,,,,,,GCB
+92,Gros Manseng,,,,,,,,,GRM
+93,Gruener Veltliner,Grüner Veltliner,GVT,,,,,,,GVE
+94,Harslevelu,,,,,,,,,HAR
+95,Hawson's Seedless Muscat,,,,,,,,,MUH
+96,Isabella,,,,,,,,,ISA
+97,Jacquez,Troya,TRY,,,,,,,JAC
+98,Kardarka,Gamza,GMZ,,,,,,,KDK
+99,Kerner,,,,,,,,,KER
+100,Kyoho,,,,,,,,,KYO
+101,Lacrima,,,,,,,,,LAC
+102,Lagrein,,,,,,,,,LAG
+103,Lambrusco,,,,,,,,,LAM
+104,Lambrusco Maestri,,,,,,,,,LMM
+105,Lambrusco Salamino,,,,,,,,,LMS
+106,Maccabeo,Macabeo,MAC,Viura,VIU,,,,,MAC
+107,Maceratino,,,,,,,,,MCT
+108,Malbec,Cot,COT,,,,,,,MAL
+109,Malvasia Istria,Malvasia Istriana,MLI,,,,,,,MVI
+110,Malvasia,Malvasia Bianca,MVB,,,,,,,MLV
+111,Mammolo,,,,,,,,,MAM
+112,Manseng Petit Blanc,Petit Manseng,PMN,Mansengou,MAN,,,,,MPB
+113,Marroo Seedless,,,,,,,,,MRS
+114,Marsanne,,,,,,,,,MAR
+115,Marzemino,,,,,,,,,MRZ
+116,Mataro,Balzac Noir,BZN,Mourvèdre,MOU,Monastrell,MON,,,MAT
+117,Melon,Muscadet,MSD,,,,,,,MEL
+118,Mencia,,,,,,,,,MEN
+119,Merbein Seedless,,,,,,,,,MBS
+120,Merlot,,,,,,,,,MER
+121,Meslier,Meslier Doré,MDO,Petit Meslier,PMS,,,,,MES
+122,Molinara,,,,,,,,,MOL
+123,Mondeuse,,,,,,,,,MOD
+124,Montepulciano,Cordisco,CRD,,,,,,,MTP
+125,Montils,,,,,,,,,MTL
+126,Morio Muscat,Morio-Muskat,MMK,,,,,,,MOM
+127,Moscato Giallo,,,,,,,,,MGL
+128,Mueller‐Thurgau,Muller-Thurgau,n/a,,,,,,,MUT
+129,Muscadelle,Tokay,TOK,,,,,,,MCD
+130,Muscardin,,,,,,,,,MCR
+131,Muscat à petits grains noirs,Black Frontignac,BFR,,,,,,,MPG
+132,Muscat Gordo Blanco,Gordo,GOR,Lexia,LEX,Muscat d'Alexandrie,MDA,Muscat ...,n/a,MGB
+133,Muscat Hamburg,Muscat de Hambourg,MDH,Black Muscat,BMS,,,,,MDH
+134,Muscat Menudo Blanco,,,,,,,,,MMB
+135,Muscat Ottonel,,,,,,,,,MUO
+136,Nebbiolo,,,,,,,,,NEB
+137,Négrette,,,,,,,,,NGT
+138,Negro Amaro,Negroamaro,NGO,,,,,,,NGA
+139,Nero d'Avola,,,,,,,,,NDA
+140,Nero di Troia,Uva di Troia,UDT,,,,,,,NDT
+141,Nosiola,,,,,,,,,NOS
+142,Ondenc,Irvine's White,IRV,,,,,,,OND
+143,Orange Muscat,Muscat Fleur d'Oranger,MFO,,,,,,,OMS
+144,Palomino,Listán,LIS,Palomino Fino,PLF,,,,,PAL
+145,Parellada,,,,,,,,,PRL
+146,Pavana,,,,,,,,,PAV
+147,Pecorino,,,,,,,,,PEC
+148,Pedro Ximenes,Pedro Ximenez,PXZ,,,,,,,PXM
+149,Petit Verdot,,,,,,,,,PVE
+150,Picardan,,,,,,,,,PIC
+151,Picolit,,,,,,,,,PCO
+152,Piedirosso,,,,,,,,,PDR
+153,Pignoletto,Grechetto di Todi,GRT,,,,,,,PGN
+154,Pinot Blanc,,,,,,,,,PBL
+155,Pinot Gris,Pinot Grigio,PGR,Pinot Beurot,PBT,Ruländer,RUL,,,PGR
+156,Pinot Meunier,Meunier,MEU,,,,,,,PME
+157,Pinot Noir,Pinot Nero,PNR,,,,,,,PIN
+158,Pinotage,,,,,,,,,PIT
+159,Piquepoul Blanc,Piquepoul de Pinet,PQP,Piquepoul de Pinet,PQP,,,,,PQB
+160,Piquepoul Noir,,,,,,,,,PQN
+161,Prieto Picudo,,,,,,,,,PPC
+162,Prosecco,Glera,GLE,,,,,,,PRO
+163,Red Frontignac,Muscat a petits grains roses,MPS,,,,,,,RFR
+164,Refosco dal Peduncolo Rosso,,,,,,,,,REF
+165,Ribier,,,,,,,,,RIB
+166,Ribolla Gialla,,,,,,,,,RBG
+167,Riesling,,,,,,,,,RIE
+168,Rkatsiteli,Rkatziteli,RKZ,,,,,,,RKA
+169,Rondinella,,,,,,,,,RON
+170,Rosaki,Waltham Cross,WCR,,,,,,,ROS
+171,Rossese Bianco,,,,,,,,,RSB
+172,Roussanne,,,,,,,,,ROU
+173,Rubienne,,,,,,,,,RBI
+174,Rubired,,,,,,,,,RBR
+175,Ruby Cabernet,,,,,,,,,RUB
+176,Sagrantino,,,,,,,,,SAG
+177,Saint‐Macaire,,,,,,,,,STM
+178,Sangiovese,Sangiveto,n/a,,,,,,,SGV
+179,Saperavi,,,,,,,,,SAP
+180,Sauvignon Blanc,Fumé Blanc,FBL,Sauvignon,SAU,,,,,SBL
+181,Sauvignon Gris,,,,,,,,,SGR
+182,Sauvignonasse,Sauvignon vert,SVV,,,,,,,SVV
+183,Savagnin,Savagnin,SAV,Traminer,TRA,,,,,SVB
+184,Scheurebe,,,,,,,,,SCH
+185,Schioppettino,,,,,,,,,SBT
+186,Schönburger,Schoenburger,SCO,Schonburger,SCB,,,,,SCO
+187,Semillon,,,,,,,,,SEM
+188,Sercial,,,,,,,,,SER
+189,Shiraz,Syrah,SYR,,,,,,,SHZ
+190,Siegerrebe,,,,,,,,,SIE
+191,Souzao,Sousao,SOS,Vinhao,VHO,,,,,SOU
+192,St Laurent,,,,,,,,,STL
+193,Sultana,Sultanina,SUA,Thompson Seedless,THS,,,,,SUL
+194,Summer Muscat,,,,,,,,,MUS
+195,Sumoll,,,,,,,,,SUM
+196,Sun Muscat,,,,,,,,,MSU
+197,Sylvaner,Silvaner,SIL,,,,,,,SYL
+198,Symphony,,,,,,,,,SYM
+199,Syrian,,,,,,,,,SYN
+200,Taminga,,,,,,,,,TAM
+201,Tannat,,,,,,,,,TAN
+202,Tarrango,,,,,,,,,TAR
+203,Tempranillo,Aragonez,ARG,Tinta Roriz,TRR,,,,,TMP
+204,Teroldego,,,,,,,,,TER
+205,Terret Noir,,,,,,,,,TRN
+206,Tinta Amarela,Trincadeira,TRI,Trincadeira Preta,TRP,Tinta Amarelha,TTA,,,TNA
+207,Tinta Barroca,Tinta Barocca,TNB,,,,,,,TNB
+208,Tinta Francisca,,,,,,,,,TNF
+209,Tinta Negra Mole,Tinta Negra,TNN,Negramoll,NEG,,,,,TNM
+210,Tintilia,,,,,,,,,TIN
+211,Tinto Câo,Tinta Câo,TCA,,,,,,,TNC
+212,Torrontes,,,,,,,,,TRR
+213,Touriga Franca,Touriga Francesa,TRF,,,,,,,TRF
+214,Touriga,Touriga Nacional,TON,,,,,,,TOU
+215,Trebbiano,Ugni Blanc,UBL,,,,,,,TRB
+216,Trollinger,,,,,,,,,TRL
+217,Trousseau,,,,,,,,,TRU
+218,Tulillah,,,,,,,,,TUL
+219,Tyrian,,,,,,,,,TYR
+220,Vaccarese,Brun Argente,BRU,,,,,,,VAC
+221,Valdiguié,,,,,,,,,VAL
+222,Verdejo,,,,,,,,,VED
+223,Verdelho,,,,,,,,,VER
+224,Verdicchio Bianco,,,,,,,,,VRB
+225,Verduzzo,,,,,,,,,VDZ
+226,Vermentino,Rolle,RLL,,,,,,,VRM
+227,Vernaccia,,,,,,,,,VRN
+228,Villard Blanc,,,,,,,,,VLB
+229,Viognier,,,,,,,,,VIO
+230,Viosinho,,,,,,,,,VIS
+231,Xarello,,,,,,,,,XAR
+232,Zinfandel,Primitivo,PRM,Tribidrag,TBI,,,,,ZIN
+233,Zweigelt,Zweigeltrebe,ZWG,,,,,,,ZWE

@@ -2,6 +2,7 @@ import csv
 import json
 import urllib.request
 import unicodedata
+import os
 
 if __name__== "__main__":
 
@@ -116,13 +117,14 @@ if __name__== "__main__":
             print("Error: There was an error reading or writing to the file")
 
 
-
+    print(os.getcwd())
+    
     label_url = 'https://drive.google.com/uc?export=download&id=1diQRBAJO9dYwoR5MBl78z_zS7pFvbP4f'
     bottle_url = 'https://drive.google.com/uc?export=download&id=1rxNnJHWXuItwi_gKZFEBdyFmdTLUZ2Qq'
 
-    get_variety_list(label_url, '/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv')
-    get_variety_list(bottle_url, '/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv')
-    create_variety_list_csv_from_raw('/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv', '/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv', '/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv')
-    create_json_from_csv('/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv', '/home/runner/work/project-harmony/project-harmony/specifications/australian-grapevine-variety-list/variety-list/json/variety-list.json')
+    get_variety_list(label_url, './specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv')
+    get_variety_list(bottle_url, './specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv')
+    create_variety_list_csv_from_raw('./specifications/australian-grapevine-variety-list/variety-list/raw/raw-label.csv', 'specifications/australian-grapevine-variety-list/variety-list/raw/raw-bottle.csv', 'specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv')
+    create_json_from_csv('specifications/australian-grapevine-variety-list/variety-list/csv/variety-list.csv', 'specifications/australian-grapevine-variety-list/variety-list/json/variety-list.json')
 
 

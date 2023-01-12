@@ -1,5 +1,7 @@
 # Wine Australia list of Australian grape vine varieties and their synonyms.
 
+[![Import Latest Australian Grapevine Variety List](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml/badge.svg?branch=main)](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml)
+
 This repository contains an up to date list of Australian grape vine varieties, their synonyms and variety codes as used by Wine Australia.
 
 ## Why was this created?

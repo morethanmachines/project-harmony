@@ -15,6 +15,8 @@ Project Harmony is split into three primary areas of concern:
 2. Developing a common schema for row/block identification (including the support for spatial identification of rows and blocks) 
 3. Developing a common schema for the description of a spray diary (incorporating row/block identification).
 
+We are also working to make available up to date, common datasets detailing information that includes Australian Varieties, Pests, Chemicals and gowing regions in formats that support the implementation of the Project Harmony specifications. 
+
 ## Contributing
 You are welcome and encouraged to contribute to this repository. The open source approach to the development of this project means that:
 

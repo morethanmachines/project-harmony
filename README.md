@@ -12,7 +12,7 @@ This repository contains the artefacts for Wine Australia's Project Harmony. Bui
 Project Harmony is split into three primary areas of concern:
 
 1. [Developing a common row/block identifier that can be used between systems in the supply chain.](https://github.com/morethanmachines/project-harmony/blob/main/specifications/block/documents/block-id.md)
-2. Developing a common schema for row/block identification (including the support for spatial identification of rows and blocks) 
+2. [Developing a common schema for row/block identification (including the support for spatial identification of rows and blocks)](https://github.com/morethanmachines/project-harmony/tree/main/specifications/block/documents) 
 3. Developing a common schema for the description of a spray diary (incorporating row/block identification).
 
 We are also working to make available up to date, common datasets detailing information that includes [Australian Varieties](https://github.com/morethanmachines/project-harmony/tree/main/specifications/australian-grapevine-variety-list), Pests, Chemicals and growing regions in formats that support the implementation of the Project Harmony specifications. 

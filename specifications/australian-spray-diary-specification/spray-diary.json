@@ -1,0 +1,84 @@
+{
+    "schema_version":1.0,
+    "records":[
+        {
+            "record_id":"421847129847128949124",
+            "start_time":"2022-06-01T12:00:00Z",
+            "end_time":"2022-06-01T12:00:00Z",
+            "operator":"Fred Bloggs",
+            "blocks":[
+                {
+                    "block_id":""
+                }
+            ],
+            "variety_code":"CHR",
+            "growth_stage":12,
+            "comment":"Applied preventatively for control of powedery mildew.",
+            "products_applied": {
+                "product_name":"Product Y",
+                "type":"funcicide|pesticide|fertiliser",
+                "chemical":"Pesticide X",
+                "formulation":"liquid|powder",
+                "apvma_id":"",
+                "target":"Cape Weed",
+                "usage_restrictions":[
+                    {
+                        "type":"winery",
+                        "reference":"Accolade",
+                        "unit":"days",
+                        "value":30
+                    },
+                    {
+                        "type":"industry",
+                        "reference":"AWRI",
+                        "unit":"days",
+                        "value":30
+                    }
+                ],
+                "label_rate_per_100l":{
+                    "user_product_unit":"",
+                    "user_dilution_unit":"",
+                    "user_product_amount":"",
+                    "user_dilution_amount":"",
+                    "metric_product_amount":"",
+                    "metric_dilution_amount":""
+                },
+                "concentration_factor":3,
+                "water_sprayed": {
+                    "user_distance_unit":"hectare|meters",
+                    "user_distance":100,
+                    "user_volume_unit":"litres",
+                    "user_volume_sprayed":500,
+                    "metric_distance":100,
+                    "metric_volume_sprayed":500
+                },
+                "registered_product_used":{
+                    "user_distance_unit":"hectare|meters",
+                    "user_distance":100,
+                    "user_product_unit":"kg|g|ml|l",
+                    "user_volume_applied":5.25,
+                    "metric_distance":100,
+                    "metric_volume_applied":5.25
+                }
+            },
+            "weather_condition_records":[
+                {
+                    "record_id":"12412421412412434325324",
+                    "record_start":"2022-06-01T12:00:00Z",
+                    "record_end":"2022-06-01T12:00:00Z",
+                    "lattitude":"123.1234567",
+                    "longitude":"456.7890432",
+                    "wind_speed_unit":"m/s",
+                    "wind_speed":5,
+                    "wind_direction":"North",
+                    "temperature_unit":"celcius|farenheit",
+                    "temperature_value":25,
+                    "humidity_unit":"%",
+                    "humidity_value":80,
+                    "precipitation_unit":"millimeters",
+                    "precipitation_value":10
+                }
+            ]
+        }
+    ]
+}

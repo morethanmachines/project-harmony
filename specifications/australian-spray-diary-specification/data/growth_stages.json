@@ -120,6 +120,10 @@
         {
             "el_code": 43,
             "description":"Beginning of leaf fall 47 End of leaf fall"
+        },
+        {
+            "el_code": 47,
+            "description":"End of leaf fall"
         }
     ]
 }

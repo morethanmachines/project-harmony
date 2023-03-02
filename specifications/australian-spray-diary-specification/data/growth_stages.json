@@ -1,0 +1,125 @@
+{
+    "updated": 1677735113000,
+    "growth_stages": [
+        {
+            "el_code": 1,
+            "description":"Winter bud"
+        },
+        {
+            "el_code": 2,
+            "description":"Bud scales opening"
+        },
+        {
+            "el_code": 3,
+            "description":"Wooly bud green showing 4 Budburst; leaf tips visible"
+        },
+        {
+            "el_code": 7,
+            "description":"First leaf separated from shoot tip"
+        },
+        {
+            "el_code": 9,
+            "description":"2 to 3 leaves separated; shoots 2-4 cm long"
+        },
+        {
+            "el_code": 11,
+            "description":"4 leaves separated"
+        },
+        {
+            "el_code": 12,
+            "description":"5 leaves separated; shoots about 10 cm long; inflorescence clear"
+        },
+        {
+            "el_code": 13,
+            "description":"6 leaves separated"
+        },
+        {
+            "el_code": 14,
+            "description":"7 leaves separated"
+        },
+        {
+            "el_code": 15,
+            "description":"8 leaves separated, shoot elongating rapidly; single flowers in compact groups"
+        },
+        {
+            "el_code": 16,
+            "description":"10 leaves separated"
+        },
+        {
+            "el_code": 17,
+            "description":"12 leaves separated inflorescence well developed, single flowers separated"
+        },
+        {
+            "el_code": 18,
+            "description":"14 leaves separated; flower caps still in place, but cap colour fading from green"
+        },
+        {
+            "el_code": 19,
+            "description":"About 16 leaves separated; beginning of flowering (first flower caps loosening) 20 10% caps off"
+        },
+        {
+            "el_code": 21,
+            "description":"30% caps off"
+        },
+        {
+            "el_code": 23,
+            "description":"17-20 leaves separated; 50% caps off (= flowering)"
+        },
+        {
+            "el_code": 25,
+            "description":"80% caps off"
+        },
+        {
+            "el_code": 26,
+            "description":"Cap-fall complete"
+        },
+        {
+            "el_code": 27,
+            "description":"Setting; young berries enlarging (>2 mm diam.), bunch at right angles to stem"
+        },
+        {
+            "el_code": 29,
+            "description":"Berries pepper-corn size (4 mm diam.); bunches tending downwards"
+        },
+        {
+            "el_code": 31,
+            "description":"Berries pea-size (7 mm diam.)"
+        },
+        {
+            "el_code": 32,
+            "description":"Beginning of bunch closure, berries touching (if bunches are tight)"
+        },
+        {
+            "el_code": 33,
+            "description":"Berries still hard and green"
+        },
+        {
+            "el_code": 34,
+            "description":"Berries begin to soften; Sugar starts increasing"
+        },
+        {
+            "el_code": 35,
+            "description":"Berries begin to colour and enlarge"
+        },
+        {
+            "el_code": 36,
+            "description":"Berries with intermediate sugar values 37 Berries not quite ripe"
+        },
+        {
+            "el_code": 38,
+            "description":"Berries harvest-ripe"
+        },
+        {
+            "el_code": 39,
+            "description":"Berries over-ripe"
+        },
+        {
+            "el_code": 41,
+            "description":"After harvest; cane maturation complete"
+        },
+        {
+            "el_code": 43,
+            "description":""
+        }
+    ]
+}

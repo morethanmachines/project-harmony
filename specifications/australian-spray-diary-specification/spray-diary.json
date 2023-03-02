@@ -14,7 +14,7 @@
             "variety_code":"CHR",
             "growth_stage":12,
             "comment":"Applied preventatively for control of powedery mildew.",
-            "products_applied": {
+            "products_applied": [{
                 "product_name":"Product Y",
                 "type":"funcicide|pesticide|fertiliser",
                 "chemical":"Pesticide X",
@@ -60,7 +60,7 @@
                     "metric_distance":100,
                     "metric_volume_applied":5.25
                 }
-            },
+            }],
             "weather_condition_records":[
                 {
                     "record_id":"12412421412412434325324",

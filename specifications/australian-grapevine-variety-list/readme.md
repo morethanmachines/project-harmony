@@ -97,7 +97,7 @@ The Australian grape vine variety list JSON file is formatted to the following s
 ```
 </details>
 
-The specification has been designed to align with and be be in place compatible with previous [collabraculture](https://github.com/CollabricultureOrg/australian-grapevine-varieties/blob/main/data/australian-grape-varieties.json) work in this area*. (*Note that this specification does not include a top 10 flag).
+The specification has been designed to align with and be be in place compatible with previous [collabraculture](https://github.com/CollabricultureOrg/australian-grapevine-varieties/blob/main/data/australian-grape-varieties.json) [work](https://www.platfarm.com/moving-grapevine-varieties-to-code/) in this area*. (*Note that this JSON does not include a top 10 flag).
 
 ## How often is the list updated?
 

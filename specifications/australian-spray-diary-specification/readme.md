@@ -1,5 +1,12 @@
 # Spray Diary Specification
 
+This specification outlines a proposed format for recording and reporting spray applications in the Australian viticulture industry. It is intended for use by those who are already familiar with the concept of a spray diary.
+
+The spray diary specification includes detailed information about each spray application, including the start and end times, the operator responsible for the application, the blocks of land treated, the variety of grapes, and the growth stage of the vines. Additionally, the specification includes information on the chemical products used, including the product name, type, chemical composition, formulation, and target pest or disease. Restrictions on product usage are also recorded, including any required withholding periods and usage restrictions specific to the winery or the industry at large.
+
+To ensure accuracy in record keeping, this specification also includes recording of data on the weather conditions at the time of the application, such as wind speed and direction, temperature, humidity, and precipitation. This information is important for assessing the effectiveness of the application and determining whether additional applications are necessary. It also records environmental evidence of application timing to support data pertaining to spray drift events.
+
+The JSON specification document can be found [here](https://github.com/morethanmachines/project-harmony/blob/main/specifications/australian-spray-diary-specification/spray-diary.json)
 
 | Field | Type | Description | 
 | :---- | :---- | :--------- | 

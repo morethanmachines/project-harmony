@@ -1,8 +1,8 @@
 # Spray Diary Specification
 
 
-| Field | Data | Type | Description | | 
-| :-- | :-- | :-- | :-- |  | 
+| Field | Data | Type | Description | 
+| :---- | :---- | :---- | :--------- | 
 | schema_version | `float` | Version of the data schema used | 
 | records | `array` | An | `array` | of records containing information about the application | 
 | record_id | `string` | Unique identifier for the application record | 

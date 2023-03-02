@@ -56,8 +56,8 @@ The JSON specification document can be found [here](https://github.com/morethanm
 | metric_distance | `integer` | Metric distance covered | 
 | metric_volume_applied | `float` | Metric volume of the product applied |
 | weather_condition_records	| `array` |	An `array` of objects containing weather condition records | 
-| lattitude	| `string` |	Latitude of the location where the weather was recorded. | 
-| longitude	| `string` |	Longitude of the location where the weather was recorded. | 
+| lattitude	| `float` |	Latitude of the location where the weather was recorded. | 
+| longitude	| `float` |	Longitude of the location where the weather was recorded. | 
 | wind_speed_unit	| `string` |	Unit of measurement for the wind speed. | 
 | wind_speed	| `integer` |	Wind speed recorded during the time period. | 
 | wind_direction	| `string` |	Direction the wind is blowing from. | 

@@ -19,7 +19,7 @@ The JSON specification document can be found [here](https://github.com/morethanm
 | blocks | `array` | An `array` of blocks to which the product was applied | 
 | block_id | `string` | Unique identifier for the block | 
 | variety_code | `string` | Code for the grape variety to which the product was applied | 
-| growth_stage | `integer` | Growth stage of the grapevines when the product was applied | 
+| [growth_stage](https://github.com/morethanmachines/project-harmony/blob/main/specifications/australian-spray-diary-specification/data/growth_stages.json) | `integer` | Growth stage EL number of the grapevines when the product was applied. [Based on AWRI growth stage EL numbers](https://www.awri.com.au/wp-content/uploads/grapegrowth.pdf). A Wine Australia managed [JSON file](https://github.com/morethanmachines/project-harmony/blob/main/specifications/australian-spray-diary-specification/data/growth_stages.json) has been created to support this requirement| 
 | comment | `string` | Any additional comments about the application | 
 | products_applied | `array` | An `array` containing information about the product that was applied | 
 | product_name | `string` | Name of the product that was applied | 

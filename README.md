@@ -1,4 +1,4 @@
-<img src="https://www.wineaustralia.com/custom/assets/images/wine-australia.png" width="200px" />
+<a href="https://www.wineaustralia.com" target="_new"><img src="https://www.wineaustralia.com/custom/assets/images/wine-australia.png" width="200px" /></a>
 
 # Wine Australia Spray Diary Specification
 

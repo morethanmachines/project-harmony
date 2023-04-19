@@ -1,5 +1,6 @@
 {
-    "schema_version":1.0,
+    "$schema": "https://raw.githubusercontent.com/morethanmachines/project-harmony/main/specifications/australian-spray-diary-specification/spray-diary-schema.json",
+    "version":1.0,
     "records":[
         {
             "record_id":"421847129847128949124",

@@ -1,0 +1,471 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "version": {
+        "type": "number"
+      },
+      "records": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "record_id": {
+                "type": "string"
+              },
+              "created_date": {
+                "type": "string"
+              },
+              "last_modified_date": {
+                "type": "string"
+              },
+              "submission_date": {
+                "type": "string"
+              },
+              "session_start": {
+                "type": "string"
+              },
+              "session_end": {
+                "type": "string"
+              },
+              "version_number": {
+                "type": "integer"
+              },
+              "vintage": {
+                "type": "integer"
+              },
+              "submitted": {
+                "type": "string"
+              },
+              "vinyard": {
+                "type": "object",
+                "properties": {
+                  "business_name": {
+                    "type": "string"
+                  },
+                  "business_abn": {
+                    "type": "string"
+                  },
+                  "business_address": {
+                    "type": "string"
+                  },
+                  "business_postcode": {
+                    "type": "string"
+                  },
+                  "business_state": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "business_name",
+                  "business_abn",
+                  "business_address",
+                  "business_postcode",
+                  "business_state"
+                ]
+              },
+              "operator": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "address": {
+                    "type": "string"
+                  },
+                  "postcode": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "phone": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "name",
+                  "address",
+                  "postcode",
+                  "state",
+                  "phone"
+                ]
+              },
+              "blocks": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "block_id": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "block_id"
+                    ]
+                  }
+                ]
+              },
+              "variety_code": {
+                "type": "string"
+              },
+              "variety_name": {
+                "type": "string"
+              },
+              "growth_stage_el": {
+                "type": "integer"
+              },
+              "comment": {
+                "type": "string"
+              },
+              "wine_company_comment": {
+                "type": "string"
+              },
+              "products_applied": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "product_name": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "chemical": {
+                        "type": "string"
+                      },
+                      "formulation": {
+                        "type": "string"
+                      },
+                      "active_ingredient": {
+                        "type": "string"
+                      },
+                      "apvma_id": {
+                        "type": "string"
+                      },
+                      "target": {
+                        "type": "string"
+                      },
+                      "sprary_width_unit": {
+                        "type": "string"
+                      },
+                      "spray_width": {
+                        "type": "number"
+                      },
+                      "usage_restrictions": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string"
+                              },
+                              "reference": {
+                                "type": "string"
+                              },
+                              "unit": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "type",
+                              "reference",
+                              "unit",
+                              "value"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string"
+                              },
+                              "reference": {
+                                "type": "string"
+                              },
+                              "unit": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "type",
+                              "reference",
+                              "unit",
+                              "value"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "type": {
+                                "type": "string"
+                              },
+                              "reference": {
+                                "type": "string"
+                              },
+                              "unit": {
+                                "type": "string"
+                              },
+                              "value": {
+                                "type": "integer"
+                              }
+                            },
+                            "required": [
+                              "type",
+                              "reference",
+                              "unit",
+                              "value"
+                            ]
+                          }
+                        ]
+                      },
+                      "label_rate_per_100l": {
+                        "type": "object",
+                        "properties": {
+                          "user_product_unit": {
+                            "type": "string"
+                          },
+                          "user_dilution_unit": {
+                            "type": "string"
+                          },
+                          "user_product_amount": {
+                            "type": "string"
+                          },
+                          "user_dilution_amount": {
+                            "type": "string"
+                          },
+                          "metric_product_amount": {
+                            "type": "string"
+                          },
+                          "metric_dilution_amount": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "user_product_unit",
+                          "user_dilution_unit",
+                          "user_product_amount",
+                          "user_dilution_amount",
+                          "metric_product_amount",
+                          "metric_dilution_amount"
+                        ]
+                      },
+                      "concentration_factor": {
+                        "type": "integer"
+                      },
+                      "water_sprayed": {
+                        "type": "object",
+                        "properties": {
+                          "user_distance_unit": {
+                            "type": "string"
+                          },
+                          "user_distance": {
+                            "type": "integer"
+                          },
+                          "user_volume_unit": {
+                            "type": "string"
+                          },
+                          "user_volume_sprayed": {
+                            "type": "integer"
+                          },
+                          "metric_distance": {
+                            "type": "integer"
+                          },
+                          "metric_volume_sprayed": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "user_distance_unit",
+                          "user_distance",
+                          "user_volume_unit",
+                          "user_volume_sprayed",
+                          "metric_distance",
+                          "metric_volume_sprayed"
+                        ]
+                      },
+                      "registered_product_used": {
+                        "type": "object",
+                        "properties": {
+                          "user_distance_unit": {
+                            "type": "string"
+                          },
+                          "user_distance": {
+                            "type": "integer"
+                          },
+                          "user_product_unit": {
+                            "type": "string"
+                          },
+                          "user_volume_applied": {
+                            "type": "number"
+                          },
+                          "label_rate": {
+                            "type": "object",
+                            "properties": {
+                              "min": {
+                                "type": "string"
+                              },
+                              "max": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "min",
+                              "max"
+                            ]
+                          },
+                          "metric_distance": {
+                            "type": "integer"
+                          },
+                          "metric_volume_applied": {
+                            "type": "number"
+                          },
+                          "row_width_unit": {
+                            "type": "string"
+                          },
+                          "row_width": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "user_distance_unit",
+                          "user_distance",
+                          "user_product_unit",
+                          "user_volume_applied",
+                          "label_rate",
+                          "metric_distance",
+                          "metric_volume_applied",
+                          "row_width_unit",
+                          "row_width"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "product_name",
+                      "type",
+                      "chemical",
+                      "formulation",
+                      "active_ingredient",
+                      "apvma_id",
+                      "target",
+                      "sprary_width_unit",
+                      "spray_width",
+                      "usage_restrictions",
+                      "label_rate_per_100l",
+                      "concentration_factor",
+                      "water_sprayed",
+                      "registered_product_used"
+                    ]
+                  }
+                ]
+              },
+              "weather_condition_records": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "record_id": {
+                        "type": "string"
+                      },
+                      "record_start": {
+                        "type": "string"
+                      },
+                      "record_end": {
+                        "type": "string"
+                      },
+                      "lattitude": {
+                        "type": "number"
+                      },
+                      "longitude": {
+                        "type": "number"
+                      },
+                      "wind_speed_unit": {
+                        "type": "string"
+                      },
+                      "wind_speed": {
+                        "type": "integer"
+                      },
+                      "wind_direction": {
+                        "type": "string"
+                      },
+                      "temperature_unit": {
+                        "type": "string"
+                      },
+                      "temperature_value": {
+                        "type": "integer"
+                      },
+                      "humidity_unit": {
+                        "type": "string"
+                      },
+                      "humidity_value": {
+                        "type": "integer"
+                      },
+                      "precipitation_unit": {
+                        "type": "string"
+                      },
+                      "precipitation_value": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "record_id",
+                      "record_start",
+                      "record_end",
+                      "lattitude",
+                      "longitude",
+                      "wind_speed_unit",
+                      "wind_speed",
+                      "wind_direction",
+                      "temperature_unit",
+                      "temperature_value",
+                      "humidity_unit",
+                      "humidity_value",
+                      "precipitation_unit",
+                      "precipitation_value"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "record_id",
+              "created_date",
+              "last_modified_date",
+              "submission_date",
+              "session_start",
+              "session_end",
+              "version_number",
+              "vintage",
+              "submitted",
+              "vinyard",
+              "operator",
+              "blocks",
+              "variety_code",
+              "variety_name",
+              "growth_stage_el",
+              "comment",
+              "wine_company_comment",
+              "products_applied",
+              "weather_condition_records"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "schema_version",
+      "records"
+    ]
+  }

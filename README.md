@@ -1,10 +1,10 @@
 <img src="https://www.wineaustralia.com/custom/assets/images/wine-australia.png" width="200px" />
 
-## Wine Australia Spray Diary Specification
+# Wine Australia Spray Diary Specification
 
 [![Import Latest Australian Grapevine Variety List](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml/badge.svg?branch=main)](https://github.com/morethanmachines/project-harmony/actions/workflows/import-variety-list.yml)
 
-### Objective:
+## Objective:
 **Responding to industry requirements, [Wine Australia](https://www.wineaustralia.com/about-us) has created a data specification that is intended to support the portability of  grower agrochemical application records between Spray Diary systems.**
 
 Adoption of this common specification by applications will enable growers to enter their agrochemical data once, share their data across platforms to permitted parties, and to maintain access to their online diary history. 
@@ -26,7 +26,6 @@ We have co-developed this specification with stakeholders from across the Austra
 ## Providing feedback and asking questions
 * The Issues section of this repository is the best place to ask questions and provide feedback.
 * We prefer this approach to using email because all collaborators can participate and learn from the discussion.
-
 * Please use the issue search to see if anyone else has logged the same issue before adding yours.
 * Do participate by commenting on issues logged by others.
 * If you have several disparate items of feedback, please create separate issues to allow the discussion to progress for each. We will close issues once they have been resolved.

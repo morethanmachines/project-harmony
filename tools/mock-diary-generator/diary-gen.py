@@ -257,12 +257,19 @@ def gen_records(record_count):
         records.append(record)
     return records
 
+def gen_diary(records):
+    print(f'Generating a spray diary with {records} records.')
+    diary = {
+        "$schema": "https://raw.githubusercontent.com/morethanmachines/project-harmony/main/specifications/australian-spray-diary-specification/spray-diary-schema.json",
+        "version":1.0,
+        "records":gen_records(records)
+    }
 
-diary = {
-    "$schema": "https://raw.githubusercontent.com/morethanmachines/project-harmony/main/specifications/australian-spray-diary-specification/spray-diary-schema.json",
-    "version":1.0,
-    "records":gen_records(10)
-}
+    with open("diary.json", "w") as diary_file:
+        json.dump(diary, diary_file, indent=2)
 
-with open("diary.json", "w") as diary_file:
-    json.dump(diary, diary_file, indent=2)
+
+
+
+#Generate the diary with 10 entries
+gen_diary(100000)

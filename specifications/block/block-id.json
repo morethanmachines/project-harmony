@@ -1,0 +1,40 @@
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-122.4167, 37.7778],
+          [-122.4167, 37.7833],
+          [-122.4250, 37.7833],
+          [-122.4250, 37.7778],
+          [-122.4167, 37.7778]
+        ]
+      ]
+    },
+    "properties": {
+      "id":"b967e77cce9e0582af118bfb467fbab9",
+      "created":"",
+      "last_updated":"",
+      "history":[
+        "5eb63bbbe01eeed093cb22bb8f5acdc3",
+        "118e57b1eecd61e54b502055d82aa57f",
+        "cc2c857f89648dbd139d7b2a6665957d"
+      ],
+      "abn": "1234 567 890",
+      "block_name": "Block 1",
+      "grapevine_variety": "Cabernet Sauvignon",
+      "grapevine_variety_code": "CSA",
+      "GI_region": 45,
+      "contract_id": "12345ABCD",
+      "starting_row_number": 1,
+      "rows_in_block": 10,
+      "vendor":[
+        {
+            "id": "com.wineaustralia",
+            "key": "id",
+            "value": "123456789"
+        }
+      ]
+    }
+  }

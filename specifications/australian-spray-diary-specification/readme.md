@@ -1,6 +1,6 @@
 # Spray Diary Specification
 
-**Note:** While the specification is being tested with industry we expect that there will be serveral, potentially breaking changes to the format. The specification is versioned to support this. Once a version 1 of the specification is reached through industry testing future changes will be released through a defined release process managed by Wine Australia maintainers.
+**Note:** While the specification is being tested with industry we expect that there will be several, potentially breaking changes to the format. The specification is versioned to support this. Once a version 1 of the specification is reached through industry testing future changes will be released through a defined release process managed by Wine Australia maintainers.
 
 # Overview 
 This spray diary specification outlines a proposed format for recording and reporting spray applications in the Australian viticulture industry. It is intended for use by those who are already familiar with the concept of a spray diary.
@@ -16,7 +16,7 @@ The JSON specification document can be found [here](https://github.com/morethanm
 
 Its is expected that the spray diary specification will support at least two existing use cases. 
 
-The first use case is where spray diary information collected by a grower is eported from an existing system. This activity is currently achieved in the most part through the use of CSV files created using different column naming structures. This makes it diffiult for growers to merge spray diaries exported from different systems and requires third parties whom consume the data to implement multiple import pipelines to prepare imported data for use. The common specification presented here is designed to mitigate this by providing an opinionated, co-created structure against which parties can align their data.
+The first use case is where spray diary information collected by a grower is exported from an existing system. This activity is currently achieved in the most part through the use of CSV files created using different column naming structures. This makes it difficult for growers to merge spray diaries exported from different systems and requires third parties whom consume the data to implement multiple import pipelines to prepare imported data for use. The common specification presented here is designed to mitigate this by providing an opinionated, co-created structure against which parties can align their data.
 
 The second use case for the specification is for the transmission of data directly from system to system via APIs. In this example, we will describe the process of sending spray diary data from a data provider to a data receiver's API endpoint. The data will be transmitted in the JSON format defined in the specification, and the provider will need to authenticate with the endpoint using the authentication method required by the specific endpoint. It's important to note that the authentication method may vary from receiver to receiver, but for this example, we will use OAuth 2.0. An example API process has been outlined in more detail below to illustrate the use of the spray diary data specification.
 
@@ -35,7 +35,7 @@ The second use case for the specification is for the transmission of data direct
 **Data Transmission**
 - Once authenticated, construct the JSON payload containing the viticulture spray diary data to be sent to the API endpoint.
 - Include all the necessary attributes required by the receiver, ensuring the data adheres to the receiver's defined data schema or specifications.
-- Utilise the appropriate HTTP methods (e.g., POST, PUT, or PATCH) to send the data to the reciever's API endpoint.
+- Utilise the appropriate HTTP methods (e.g., POST, PUT, or PATCH) to send the data to the receiver's API endpoint.
 - Set the appropriate headers, including the Content-Type header specifying that the payload is in JSON format.
 
 **Error Handling and Responses**
@@ -44,9 +44,9 @@ The second use case for the specification is for the transmission of data direct
 - Implement appropriate error handling mechanisms to retry failed requests, handle rate limiting, and ensure data integrity.
 
 ### Use Case Example
-Suppose a grower wants to use their pray diary data to support their sustainability credentials. The grower, using their vinyard management application, collects spray diary information from their various spray application activities and sends it to their industry sustainability auditor's API endpoint so that their claims can be validated and used to sell into markets requiring sustainability credentials.
+Suppose a grower wants to use their spray diary data to support their sustainability credentials. The grower, using their vineyard management application, collects spray diary information from their various spray application activities and sends it to their industry sustainability auditor's API endpoint so that their claims can be validated and used to sell into markets requiring sustainability credentials.
 
-Their vinyard management system implements OAuth 2.0 authentication to authenticate with the industry auditor's API endpoint. They obtain the client credentials (client ID and client secret) from the indstry sustainability auditor's authentication portal. Following the OAuth 2.0 flow, their vineyard management software exchanges these credentials for an access token.
+Their vineyard management system implements OAuth 2.0 authentication to authenticate with the industry auditor's API endpoint. They obtain the client credentials (client ID and client secret) from the industry sustainability auditor's authentication portal. Following the OAuth 2.0 flow, their vineyard management software exchanges these credentials for an access token.
 
 Once authenticated, the provider constructs a JSON payload containing the spray diary data in the format outlined in the specification, including attributes such as vineyard ID, spray date, chemicals used, dosage, and application method etc. They send a POST request to the auditor's API endpoint, setting the appropriate headers and including the JSON payload.
 

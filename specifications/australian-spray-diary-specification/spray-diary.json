@@ -12,7 +12,7 @@
             "version_number": 1,
             "vintage": 2023,
             "submitted":"true|false",
-            "vinyard": {
+            "vineyard": {
                 "business_name":"",
                 "business_abn":"",
                 "business_address":"",
@@ -35,17 +35,17 @@
             "variety_code":"BRC",
             "variety_name":"Brachetto",
             "growth_stage_el":12,
-            "comment":"Applied preventatively for control of powedery mildew.",
-            "wine_company_comment":"Applied preventatively for control of powedery mildew.",
+            "comment":"Applied preventively for control of powdery mildew.",
+            "wine_company_comment":"Applied preventively for control of powdery mildew.",
             "products_applied": [{
                 "product_name":"Product Y",
-                "type":"funcicide|pesticide|fertiliser|herbicide|insecticide|adjuvents",
+                "type":"fungicide|pesticide|fertiliser|herbicide|insecticide|adjuvants",
                 "chemical":"Pesticide X",
                 "formulation":"liquid|powder",
                 "active_ingredient":"",
-                "apvma_id":"",
+                "apvma_id":"pcode",
                 "target":"Cape Weed",
-                "sprary_width_unit":"meter",
+                "spray_width_unit":"meter",
                 "spray_width": 1.5,
                 "usage_restrictions":[
                     {
@@ -109,7 +109,7 @@
                     "wind_speed_unit":"m/s",
                     "wind_speed":5,
                     "wind_direction":"North",
-                    "temperature_unit":"celcius|farenheit",
+                    "temperature_unit":"celsius|fahrenheit",
                     "temperature_value":25,
                     "humidity_unit":"%",
                     "humidity_value":80,

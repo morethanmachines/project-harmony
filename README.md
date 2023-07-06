@@ -13,9 +13,8 @@ This repository contains the artefacts required for the adoption of the specific
 
 The documents in this repository provide:
 
-1. 🍇 A specification for a block identifier
-2. 📒 A specification for a spray diary
-3. 🧰 Tools that support the adoption of the specifications
+1. 🍇 [Specifications for row/block identifiers and spray diary data](https://github.com/morethanmachines/project-harmony/tree/main/specifications)
+3. 🧰 [Tools that support the adoption of the specifications](https://github.com/morethanmachines/project-harmony/tree/main/tools)
 
 ## Contributing
 We have co-developed this specification with stakeholders from across the Australian Viticulture industry and it is hoped that this collaboration will continue through your ongoing contributions to the specification arising from it's use. Contributing to this project as an open-source project means that the the specifications and tools are freely available for anyone to use or modify however;

@@ -50,13 +50,13 @@
                 "usage_restrictions":[
                     {
                         "type":"industry",
-                        "reference":"AWRI",
+                        "reference":"An Industry Body",
                         "unit":"el",
                         "value":29
                     },
                     {
                         "type":"winery",
-                        "reference":"Accolade",
+                        "reference":"The Excellent Wine Company",
                         "unit":"days",
                         "value":30
                     },
